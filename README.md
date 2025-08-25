@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# 📊 Admin Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern **React Admin Dashboard** built with **Material-UI (MUI v7)**, featuring charts, tables, forms, calendar integration, and a responsive sidebar.  
+This project demonstrates how to create a fully functional admin panel using popular React libraries.
 
-## Available Scripts
+---
+<img width="1907" height="931" alt="image" src="https://github.com/user-attachments/assets/84865fb3-12a4-4f6b-9b22-9d48c4dc76c6" />
 
-In the project directory, you can run:
 
-### `npm start`
+## 🚀 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- ✅ Responsive **Sidebar Navigation** (`react-pro-sidebar`)
+- ✅ **DataGrid Tables** with sorting/filtering (`@mui/x-data-grid`)
+- ✅ **Interactive Forms** with validation (`Formik` + `Yup`)
+- ✅ **FullCalendar Integration** with day, week, month views
+- ✅ **Beautiful Charts & Graphs** (Line, Bar, Pie, Geography) using `@nivo`
+- ✅ **Theming & Dark Mode** with MUI + custom `tokens`
+- ✅ **Reusable Components**: Stat boxes, progress circles, headers
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
+<img width="1900" height="930" alt="image" src="https://github.com/user-attachments/assets/033011a6-6d3e-4295-be6f-b9e8de81974d" />
+<img width="1897" height="921" alt="image" src="https://github.com/user-attachments/assets/68e09f45-367b-4987-b505-1e43e551a098" />
+<img width="1907" height="906" alt="image" src="https://github.com/user-attachments/assets/b819ee32-5892-4234-a606-e8ae7de4ec36" />
+<img width="1907" height="910" alt="image" src="https://github.com/user-attachments/assets/d2c82f2f-d709-4671-8e97-592020a2dc16" />
 
-### `npm test`
+## 🛠️ Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Core
+- [React 19](https://react.dev/) – Frontend framework  
+- [React Router v6](https://reactrouter.com/) – Routing and navigation  
+- [Material-UI v7](https://mui.com/) – UI components and theming  
+- [Styled Components](https://styled-components.com/) – Additional styling engine  
+<img width="1882" height="918" alt="image" src="https://github.com/user-attachments/assets/d58bd624-2314-417f-8fa5-94581a90c0e3" />
 
-### `npm run build`
+### UI Components
+- **Sidebar** → [`react-pro-sidebar`](https://github.com/azouaoui-med/react-pro-sidebar)  
+  Collapsible sidebar navigation.  
+- **DataGrid** → [`@mui/x-data-grid`](https://mui.com/x/react-data-grid/)  
+  Tables with sorting, filtering, pagination.  
+- **Forms** → [`formik`](https://formik.org/) + [`yup`](https://github.com/jquense/yup)  
+  Form management and validation.  
+- **FullCalendar** → [`@fullcalendar/react`](https://fullcalendar.io/docs/react)  
+  Interactive calendar with events.  
+- **Icons** → [`@mui/icons-material`](https://mui.com/material-ui/material-icons/)  
+  Material icons.  
+<img width="1904" height="924" alt="image" src="https://github.com/user-attachments/assets/bf9e34ca-e155-4d53-a9a5-74b282f8a424" />
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Data Visualization
+- **Charts** → [`@nivo`](https://nivo.rocks/)  
+  - `@nivo/line` → Revenue Line Charts  
+  - `@nivo/bar` → Sales Quantity  
+  - `@nivo/pie` → Campaigns & Distribution  
+  - `@nivo/geo` → Geography-based traffic  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
+│── src/
+│ ├── components/ # Reusable UI components (Sidebar, Header, StatBox, etc.)
+│ ├── data/ # Mock data (transactions, charts, etc.)
+│ ├── scenes/ # Main pages (Dashboard, Calendar, Forms, Tables)
+│ ├── theme.js # Custom MUI theme and color tokens
+│ └── App.js # App entry point with routes
+│
+├── package.json # Dependencies & scripts
+└── README.md # Documentation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## ⚡ Getting Started
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 1. Clone the repo
+```bash
+git clone https://github.com/your-username/admin-dashboard.git
+cd admin-dashboard
+<img width="1103" height="534" alt="image" src="https://github.com/user-attachments/assets/5e3629bb-00c0-4659-bb0f-97ea4a4cdff3" />
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📂 Project Structure
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

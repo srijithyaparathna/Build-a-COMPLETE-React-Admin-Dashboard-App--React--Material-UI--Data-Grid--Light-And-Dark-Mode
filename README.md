@@ -3,6 +3,15 @@
 A modern **React Admin Dashboard** built with **Material-UI (MUI v7)**, featuring charts, tables, forms, calendar integration, and a responsive sidebar.  
 This project demonstrates how to create a fully functional admin panel using popular React libraries.
 
+## 🚀 Features
+- 📂 **Project Structure** with reusable components, mock data, and pages
+- 🎨 **Custom Theme** using Material-UI + Dark/Light mode
+- 📊 **Nivo Charts** (Line, Bar, Pie, Geography)
+- 📅 **FullCalendar** integration
+- 📝 **Formik Forms & Yup Validation**
+- 📋 **DataGrid Tables** with sorting, filtering, and export
+- 📑 **Collapsible Sidebar** (React Pro Sidebar)
+- 🔐 **Scalable & Extendable Architecture**
 ---
 <img width="1907" height="931" alt="image" src="https://github.com/user-attachments/assets/84865fb3-12a4-4f6b-9b22-9d48c4dc76c6" />
 
